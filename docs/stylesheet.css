@@ -43,6 +43,9 @@ body {
   height: 158px;
   object-fit: cover;
   border-radius: 158px;
+  outline-style: solid;
+  outline-color: white;
+  outline-width:3px;
 }
 
 .items{
