@@ -1,15 +1,18 @@
 body {
-  background-color: #fec7d7;
+  background: linear-gradient(110deg, #0000FF 30%, #FF033E 60%);
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
   justify-content: center;
+  font-family: 'Quiapo Free', sans-serif;
+  font-size: 20px;
 }
 
-.name {
-  color: #0e172c;
+.myname {
+  font-size: 30px;
   display: flex;
   justify-content: center;
+  color: #FFFFFF;
 }
 
 .banner{
@@ -20,6 +23,7 @@ body {
 .social-icons {
   display: flex;
   justify-content: space-around;
+  font-size: 35px;
 }
 
 .social-icons a{
@@ -35,10 +39,10 @@ body {
 }
 
 .banner-image{
-  width: 128px;
-  height: 128px;
+  width: 158px;
+  height: 158px;
   object-fit: cover;
-  border-radius: 128px;
+  border-radius: 158px;
 }
 
 .items{
@@ -50,14 +54,15 @@ body {
 }
 
 .link {
-  background-color: #d9d4e7;
+  background-color: #ffed4b;
+  border-radius: 25px;
   display: flex;
   align-items: center;
   padding: 5px;
 }
 
 .link a{
-  color: #001e1d;
+  color: #0e172c;
   text-decoration: none;
   text-align: center;
   flex-grow: 1;
